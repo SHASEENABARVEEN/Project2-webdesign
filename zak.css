@@ -1,0 +1,128 @@
+
+h1.head{
+  background-color: darkcyan;
+  color:white;
+  width:100%;
+  height:15%;
+  text-align: center;
+   position:absolute;
+  top:0px;
+  left:0px;
+  padding-top:40px;
+  margin:0px;
+}button.but a{
+  color:black;
+  text-decoration: none;
+  font-size:20px ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+.image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top:200px;
+}
+.image img{
+  width:300px ;
+  height:auto;
+
+}
+button.but{
+  width:fit-content;
+  height: fit-content;
+  background-color:darkcyan ;
+  border-radius: 0%;
+  padding: 10px 20px;
+  position: relative;
+  margin-top:50px;
+  top:120px;
+}
+.btnn{
+ 
+  background-color: darkcyan;
+  position:relative;
+  font-size: 20px;
+  width:fit-content;
+  height:fit-content;
+  border-radius:20px;
+  font-weight: bold;
+  padding:10px 15px;
+}
+.sol{
+ display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  background-color:darkcyan;
+   position:absolute;
+   top:80px;
+  color:black;
+  width:220px;
+  margin:40px;
+  height:310px;
+  padding-top:20px;
+   padding-left: 50px;
+  font-size:15px;
+  text-align: left;
+   z-index: 1;
+   line-height: 30px;
+   transition: 5s;
+}
+.box input::placeholder{
+  color:black;
+}
+.box input{
+  border: 1px solid black;
+   width:165px;
+}
+.box button{
+   border-radius:10px;
+   background-color: crimson;
+   color:white;
+   margin-left: 50px;
+}
+.box > button.close{
+   top:0px;
+   margin-left:180px;
+}
+.ans{
+   position:relative;
+   top:150px;
+   text-align: center;
+  margin-top:20px;
+  font-size: 25px;
+   
+}
+p{
+   position:relative;
+   
+  font-size:20px;
+  font-weight: bold;
+  text-align: center;
+}
+div.overlay{
+   background-color: black;
+   opacity:0.7;
+   position:absolute;
+   left:0px;
+   top:0px;
+   bottom: 0px;
+   margin:0px;
+   width:100%;
+   height: 100%;
+   z-index: 1;
+}
+@media screen and (min-width:800px){
+  .image img{
+    width:600px;
+    height: auto;
+  }
+  .open{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
